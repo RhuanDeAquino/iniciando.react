@@ -29,7 +29,7 @@ class semaforo extends React.Component {
         }
       render() {
       return (
-        <div className="App" style={'backgroundColor:red'}>
+        <div className="App">
             <p>{this.state.semaforo}</p>
             <button onClick={this.ficarvermelho}>Vermelho</button>
             <button onClick={this.ficaramarelo}>Amarelo</button>
