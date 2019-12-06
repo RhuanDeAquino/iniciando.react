@@ -1,13 +1,15 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Semaforo from './component/semaforo.js'
+import Cards from './component/Cards.js';
+// import Semaforo from './component/semaforo.js'
 
 function App() {
   return (
-    <div className="App">
-        <Semaforo/>
-    </div>
+    <Cards/>
+    // <div className="App">
+    //     {/* <Semaforo/> */}
+    // </div>
   );
 }
 
